@@ -4,7 +4,7 @@ Submitted by: **Hiyall Fitsum**
 
 This web app: **An extended flashcard study app for learning Spanish. Users can type in a guess before flipping the card, navigate through cards in order, shuffle the deck, and track their correct answer streak.**
 
-Time spent: **X** hours spent in total
+Time spent: 7 hours spent in total
 
 ## Required Features
 
@@ -43,7 +43,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<video src="https://i.imgur.com/yiCe8gJ.mp4" title="Video Walkthrough" width="100%" controls alt="Video Walkthrough"></video>
+<img src='https://imgflip.com/gif/av2z91' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 GIF created with imgur
 
