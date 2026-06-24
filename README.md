@@ -43,7 +43,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/DO5x6zx](https://i.imgur.com/yiCe8gJ.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<video src="https://i.imgur.com/yiCe8gJ.mp4" title="Video Walkthrough" width="100%" controls alt="Video Walkthrough"></video>
 
 GIF created with imgur
 
