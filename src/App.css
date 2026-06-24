@@ -14,7 +14,7 @@ body {
 
 .app-header {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .app-header h1 {
@@ -32,6 +32,14 @@ body {
 .card-count {
   color: #64748b;
   font-size: 0.85rem;
+}
+
+.streak-bar {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: #94a3b8;
 }
 
 .card-scene {
@@ -82,6 +90,60 @@ body {
   color: #475569;
 }
 
+.guess-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.guess-input {
+  width: 360px;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #f1f5f9;
+  font-size: 1rem;
+}
+
+.guess-input.correct {
+  border-color: #22c55e;
+}
+
+.guess-input.incorrect {
+  border-color: #ef4444;
+}
+
+.submit-btn {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 0.75rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #6d28d9;
+}
+
+.feedback {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.feedback.correct {
+  color: #22c55e;
+}
+
+.feedback.incorrect {
+  color: #ef4444;
+}
+
 .buttons {
   display: flex;
   gap: 1rem;
@@ -103,8 +165,14 @@ body {
   background: #475569;
 }
 
-.next-btn {
-  background: #2563eb;
+.nav-btn:disabled {
+  background: #1e293b;
+  color: #475569;
+  cursor: not-allowed;
+}
+
+.shuffle-btn {
+  background: #0369a1;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -114,6 +182,6 @@ body {
   cursor: pointer;
 }
 
-.next-btn:hover {
-  background: #1d4ed8;
+.shuffle-btn:hover {
+  background: #0284c7;
 }
