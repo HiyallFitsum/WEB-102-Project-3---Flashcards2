@@ -43,8 +43,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:50%;position:relative;"><iframe width="260" height="130" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/av2z91"></iframe></div><p><a href="https://imgflip.com/gif/av2z91">via Imgflip</a></p></div>
-
+<video src="https://i.imgur.com/yiCe8gJ.mp4" width="100%" controls></video>
 
 GIF created with imgur
 
